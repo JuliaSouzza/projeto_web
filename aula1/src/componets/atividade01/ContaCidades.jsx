@@ -48,27 +48,27 @@ function ContaCidades() {
 
   return (
     <div>
-      <h1>Votação de Cidades</h1>
+      <h1>Votação de Cidades Mais Bonitas</h1>
 
       <div className="cards">
         <CityCard
           nome="Quixadá"
-          imagem="https://upload.wikimedia.org/wikipedia/commons/3/3b/Quixada.jpg"
+          imagem="https://reporterceara.com.br/wp-content/uploads/2025/05/Ao-Por-do-Sol-na-Represa-do-Acude-Cedro_-localizada-na-Cidade-de-_quixada-_-no-interior-do-Estado-do.jpg"
           votos={votos.quixada}
         />
         <CityCard
           nome="Quixeramobim"
-          imagem="https://upload.wikimedia.org/wikipedia/commons/5/5c/Quixeramobim.jpg"
+          imagem="https://reporterceara.com.br/wp-content/uploads/2023/08/Snapinsta.app_346013415_1058367938474177_382983154268917231_n_1080.jpg"
           votos={votos.quixeramobim}
         />
         <CityCard
           nome="Banabuiú"
-          imagem="https://upload.wikimedia.org/wikipedia/commons/2/2c/Banabuiu.jpg"
+          imagem="https://www.crede12.seduc.ce.gov.br/wp-content/uploads/sites/109/2021/10/Banabuiu-ce.jpg"
           votos={votos.banabuiu}
         />
         <CityCard
           nome="Iguatu"
-          imagem="https://upload.wikimedia.org/wikipedia/commons/4/4a/Iguatu.jpg"
+          imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIbzmF89alAf1-QLWk6Aedy5fpiZ0W-bio0A&s"
           votos={votos.iguatu}
         />
       </div>
