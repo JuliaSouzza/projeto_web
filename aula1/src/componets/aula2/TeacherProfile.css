@@ -1,0 +1,72 @@
+/* Estilo geral da página (opcional) */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+}
+
+/* Container onde ficam vários professores */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+/* Card principal */
+.teacher-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Área da imagem */
+.tecaher-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #2c3e50;
+}
+
+/* Imagem */
+.tecaher-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Nome do professor */
+.teacher-h2 h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    text-align: center;
+    margin: 0;
+}
+
+/* Titulação */
+.teacher-titulacao h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6c7a89;
+    text-align: center;
+    margin: 0;
+}
+
+/* Descrição */
+.teacher-description {
+    font-size: 0.95rem;
+    color: #555;
+    text-align: center;
+    line-height: 1.4;
+}

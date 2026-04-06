@@ -1,0 +1,64 @@
+/* Estilo geral da página (opcional) */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.container{
+    display: flex;
+    flex-direction: row; /* garante que fiquem lado a lado */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* espaço igual entre os cards */
+    flex-wrap: wrap; /* quebra linha se tiver muitos */
+    padding: 30px;
+}
+.teacher-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 280px;
+    height: 380px; /* altura fixa */
+
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Título do card */
+.student-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Área da imagem */
+.studentpicture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #2c3e50;
+}
+
+/* Imagem dentro da div */
+.studentpicture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Descrição */
+.teacher-description {
+    font-size: 0.95rem;
+    color: #555;
+    text-align: center;
+    line-height: 1.4;
+
+    overflow: hidden; 
+}
